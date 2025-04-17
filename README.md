@@ -4,32 +4,42 @@
 **Team name:** Praet Industries  
 **Team member:** Brandon Praet 
 
+A JavaFX-based desktop application designed to store and manage data on military vehicles and defense manufacturers. Built as a course project for CSI 2300 - Object-Oriented Programming, this project demonstrates principles of modular design, file handling, and graphical user interface (GUI) development.
 
-**Who:** 
-I'm Brandon Praet, with nearly 5 years of experience as a regulatory automotive engineer, I chose to do this project solo to develop my skills in Java programming. 
-  
-**What:** 
-A military vehicle database to store information on real-world military vehicles, including attributes like: 
-- Name
-- Manufacturer
-- Cost
+## Features
 
-A GUI to interact with the information
-- Add new vehicles
-- Remove existing vehicles
-  
-**Why:** 
-Primarily, for those interested in working in the defesne industry to learn more about employers in the area and their products.
+- **Structured UI** for entering and displaying vehicles and manufacturers.
+- **JavaFX TableViews** with custom object classes (`Vehicle`, `Manufacturer`).
+- **Plain text (.txt) data persistence** using CSV format.
+- **Basic operations**: Add, Save, and Remove entries for both datasets.
+- **Object-oriented design** using UML principles and class separation.
 
-**How will it be used / What it will be used for:**  
-The vehicle database will act as a repository of information that can be added to and browsed by the user.
+---
 
-**Aspirational Goals:** 
-I want to be realistic regarding my coding ability and start with the simplist implementation first, however, these functions are what I initially imagined when drafting this project's proposal:
+## 🛠 Project Structure
 
-1. Implement a "Defense Company Database" storing company names, location, services or products they provide. This seems like a manageable goal, and would add value
-   
-2. Implement a "Battle simulator" to demonstrate the advantages/disadvantages of various vehicles and their cost.
+| Class               | Description 
+| `App.java`          | Main entry point. Sets up the GUI layout and event handlers.
+| `Vehicle.java`      | Represents military vehicle objects.
+| `Manufacturer.java` | Represents defense company objects.
+| `Tables.java`       | Constructs and configures `TableView` instances for data display.
+| `FileHandler.java`  | Handles loading, saving, and removing data from `.txt` files.
 
-**Disclaimer:** This project does not endorse violence. It is an objective exploration of local industry and the strategic factors they consider, serving as an educational tool above all else.
+---
+
+## 📂 File Structure
+
+- `VehicleInfo.txt` – Stores vehicle entries (CSV format).
+- `ManufacturerInfo.txt` – Stores manufacturer entries (CSV format).
+
+Example entry formats:
+M1 Abrams,General Dynamics,4.3,1980,Main Battle Tank 
+GDLS,Sterling Heights,Armored Vehicles,1952
+
+## Usage Instructions
+1. **Add Entries**: Fill out the text fields and click **Add Vehicle** or **Add Company**.
+2. **Save Entries**: Click **Save** to write current table data to the '.txt' files.
+3. **Remove Entries**: Select a row and click **Remove Vehicle** or **Remove Company**.
+See the User Manual for full instructions.
+
 
