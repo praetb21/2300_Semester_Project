@@ -1,0 +1,8 @@
+M1Abrams,General Dynamics Land Systems,10.66,1980,Main battle tank
+Bradley Fighting Vehicle,BAE Systems,4.35,1981,Infantry fighting vehicle
+ACV,BAE Systems,5.20,2020,Amphibious combat vehicle
+MaxxPro,Navistar Defense,0.73,2007,Mine-resistant vehicle
+Saratoga,Navistar Defense,0.27,2011,Light armored truck
+Humvee NXT 360,AM General,0.29,2022,Modern tactical Humvee
+Joint Light Tactical Vehicle,AM General,0.40,2020,Next-gen utility vehicle
+Stryker,General Dynamics Land Systems,4.90,2002,Armored personnel carrier

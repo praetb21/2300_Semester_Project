@@ -1,0 +1,6 @@
+General Dynamics Land Systems,Sterling Heights,Armored Combat Vehicles,1952
+BAE Systems,Sterling Heights,Combat Vehicles,1899
+Navistar Defense,Madison Heights,Military Trucks,1902
+Detroit Arsenal,Warren,Research & Development,1940
+AM General,Auburn Hills,Light Tactical Vehicles,1903
+Magna International,Troy,Defense Electronics,1957
