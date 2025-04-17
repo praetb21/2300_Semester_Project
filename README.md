@@ -16,7 +16,7 @@ A JavaFX-based desktop application designed to store and manage data on military
 
 ---
 
-## 🛠 Project Structure
+## Project Structure
 
 | Class               | Description 
 | `App.java`          | Main entry point. Sets up the GUI layout and event handlers.
@@ -27,7 +27,7 @@ A JavaFX-based desktop application designed to store and manage data on military
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 - `VehicleInfo.txt` – Stores vehicle entries (CSV format).
 - `ManufacturerInfo.txt` – Stores manufacturer entries (CSV format).
