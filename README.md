@@ -32,13 +32,13 @@ A JavaFX-based desktop application designed to store and manage data on military
 - ManufacturerInfo.txt : Stores manufacturer entries (CSV format).
 
 Example entry formats:
-M1 Abrams,General Dynamics,4.3,1980,Main Battle Tank 
-GDLS,Sterling Heights,Armored Vehicles,1952
+- M1 Abrams,General Dynamics,4.3,1980,Main Battle Tank 
+- GDLS,Sterling Heights,Armored Vehicles,1952
 
 ## Usage Instructions
-1. **Add Entries**: Fill out the text fields and click **Add Vehicle** or **Add Company**.
-2. **Save Entries**: Click **Save** to write current table data to the '.txt' files.
-3. **Remove Entries**: Select a row and click **Remove Vehicle** or **Remove Company**.
+- **Add Entries**: Fill out the text fields and click **Add Vehicle** or **Add Company**.
+- **Save Entries**: Click **Save** to write current table data to the '.txt' files.
+- **Remove Entries**: Select a row and click **Remove Vehicle** or **Remove Company**.
 See the User Manual for full instructions.
 
 
