@@ -18,19 +18,18 @@ A JavaFX-based desktop application designed to store and manage data on military
 
 ## Project Structure
 
-| Class               | Description 
-| `App.java`          | Main entry point. Sets up the GUI layout and event handlers.
-| `Vehicle.java`      | Represents military vehicle objects.
-| `Manufacturer.java` | Represents defense company objects.
-| `Tables.java`       | Constructs and configures `TableView` instances for data display.
-| `FileHandler.java`  | Handles loading, saving, and removing data from `.txt` files.
+App.java : Main entry point. Sets up the GUI layout and event handlers.
+Vehicle.java : Represents military vehicle objects.
+Manufacturer.java : Represents defense company objects.
+Tables.java : Constructs and configures TableView instances for data display.
+FileHandler.java : Handles loading, saving, and removing data from .txt files.
 
 ---
 
 ## File Structure
 
-- `VehicleInfo.txt` – Stores vehicle entries (CSV format).
-- `ManufacturerInfo.txt` – Stores manufacturer entries (CSV format).
+VehicleInfo.txt : Stores vehicle entries (CSV format).
+ManufacturerInfo.txt : Stores manufacturer entries (CSV format).
 
 Example entry formats:
 M1 Abrams,General Dynamics,4.3,1980,Main Battle Tank 
