@@ -28,8 +28,8 @@ A JavaFX-based desktop application designed to store and manage data on military
 
 ## File Structure
 
-VehicleInfo.txt : Stores vehicle entries (CSV format).
-ManufacturerInfo.txt : Stores manufacturer entries (CSV format).
+- VehicleInfo.txt : Stores vehicle entries (CSV format).
+- ManufacturerInfo.txt : Stores manufacturer entries (CSV format).
 
 Example entry formats:
 M1 Abrams,General Dynamics,4.3,1980,Main Battle Tank 
