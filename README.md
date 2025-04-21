@@ -18,11 +18,11 @@ A JavaFX-based desktop application designed to store and manage data on military
 
 ## Project Structure
 
-App.java : Main entry point. Sets up the GUI layout and event handlers.
-Vehicle.java : Represents military vehicle objects.
-Manufacturer.java : Represents defense company objects.
-Tables.java : Constructs and configures TableView instances for data display.
-FileHandler.java : Handles loading, saving, and removing data from .txt files.
+- App.java : Main entry point. Sets up the GUI layout and event handlers.
+- Vehicle.java : Represents military vehicle objects.
+- Manufacturer.java : Represents defense company objects.
+- Tables.java : Constructs and configures TableView instances for data display.
+- FileHandler.java : Handles loading, saving, and removing data from .txt files.
 
 ---
 
